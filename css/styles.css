@@ -1,0 +1,199 @@
+:root{
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --main-link-color: #2196F3; 
+}
+body{
+    font-family: 'Roboto', sans-serif;    
+    color: var(--primary-text-color);
+}
+
+ul{
+    list-style: none;
+    }
+    
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*Logo*/
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #000;
+}
+.logo .text{
+    color: var(--main-link-color);
+}
+.logo .other{
+    color: #FFFFFF;
+}
+/* Site nav */
+.site-nav .link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--main-link-color);
+}
+.site-nav .link.current{
+    color: var(--main-link-color);
+}
+/* Auth-nav */
+.auth-nav .link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--secondary-text-color)
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus,
+.address-list .link:hover,
+.address-list .link:focus{
+    color: var(--main-link-color);
+} 
+.auth-nav .link.current{
+    color: var(--main-link-color);
+}
+/* Hero */
+.hero{    
+    background-color:  #2F303A;
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;  
+    color: #FFFFFF;
+}
+/* Sections */
+.section-title{
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.hidden{
+    visibility: hidden;
+}
+/* Feature */
+.feature-list .title{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em; 
+    text-transform: uppercase;
+}
+.feature-list .text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+/* Specialization */
+
+/* Our team */
+.team-list .title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;           
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-list .text{
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+/* Footer */
+.footer{
+    background-color: #2F303A;
+}
+.address{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;    
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.address-list .link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* Button */
+.button{
+    font-family: inherit;    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;      
+    letter-spacing: 0.03em;
+    cursor: pointer;    
+    color: #FFFFFF;
+    }
+.button-hero{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;  
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: #FFFFFF;   
+}    
+.button.primary,
+.button-hero.primary{
+    color: #FFFFFF;
+    background-color: var(--main-link-color);
+}
+.button.secondary{
+    color: var(--primary-text-color);
+    background-color:#F5F4FA;;
+}
+.button.primary.link:hover,
+.button.primary.link:focus,
+.button-hero.primary.link:hover,
+.button-hero.primary.link:focus{
+    color: var(--primary-text-color);
+    background-color: #fff;
+}
+.button.secondary.link:hover,
+.button.secondary.link:focus{
+    color: #FFFFFF;
+    background-color: var(--main-link-color)
+}
+
+/* ПОРТФОЛИО */
+/* Filters */
+.project-list .title{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.project-list .text{
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
