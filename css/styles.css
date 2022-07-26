@@ -11,12 +11,16 @@ html{
     --secondary-text-color: #757575;
     --main-link-color: #2196F3; 
 }
+p,ul,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
 body{
     font-family: 'Roboto', sans-serif;    
     color: var(--primary-text-color);
 }
 
 ul{
+    margin: 0;
     list-style: none;
     }
     
