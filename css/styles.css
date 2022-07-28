@@ -45,7 +45,7 @@ ul{
     padding-right: 15px;
     outline: 2px solid tomato;
 }
-.container.header{
+.header .container{
     display: flex;
     align-items: center;
 }
@@ -73,7 +73,6 @@ ul{
 /* Site nav */
 .list{   
     padding: 0;
-    margin: 0; 
     list-style: none;
 }
 .site-nav{
@@ -144,7 +143,6 @@ ul{
     
 }
 .hero-title{
-    margin-top: 0;
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
@@ -165,15 +163,12 @@ ul{
 /* Feature */
 .feature-list{
     display: flex;
-    margin-top: 0;
-    margin-bottom: 0;
     padding-left: 0;
 }
 .feature-list .item:not(:last-child){
     margin-right: 30px;
 }
 .feature-list .title{
-    margin-top: 0px;
     margin-bottom: 10px;
     font-size: 14px;
     line-height: 1.14;
@@ -181,7 +176,6 @@ ul{
     text-transform: uppercase;
 }
 .feature-list .text{
-    margin-top: 0px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -189,7 +183,6 @@ ul{
 }
 /* Work */
 .work-title{  
-    margin-top: 0;
     margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
@@ -198,8 +191,6 @@ ul{
 }
 .work-list{
     display: flex;
-    margin-top: 0;
-    margin-bottom: 0;
     padding-left: 0;
 }
 .work-list .item:not(:last-child){
@@ -209,7 +200,6 @@ ul{
 /* Our team */
 
 .team-title{
-    margin-top: 0;
     margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
@@ -218,9 +208,8 @@ ul{
 }
 .team-list{
     display: flex;
-    margin-top: 0;
-    margin-bottom: 0;
     padding-left: 0;
+    width: calc(100%-90)/4;
 }
 .team-list .item:not(:last-child){
     margin-right: 30px;
@@ -236,7 +225,6 @@ ul{
     letter-spacing: 0.03em;
 }
 .team-list .text{
-    margin-top: 0;
     margin-bottom: 30px;
     line-height: 1.19;
     text-align: center;
@@ -255,7 +243,6 @@ ul{
     color: #FFFFFF;
 }
 .address .text{
-    margin-top: 0;
     margin-bottom: 9px;
 }
 .address-list{
@@ -329,8 +316,6 @@ ul{
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 .project-list .item{
     margin-right: 30px; 
@@ -351,7 +336,6 @@ ul{
     color: var(--primary-text-color);
 }
 .project-list .text{
-    margin-bottom: 0;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
